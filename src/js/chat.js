@@ -5,7 +5,8 @@ export default class Chat {
     this.registration = document.querySelector('.registration');
     this.chat = document.querySelector('.chat')
     this.myName = "";
-    this.ws = new WebSocket('ws://localhost:7070');
+    //this.ws = new WebSocket('ws://localhost:7070');
+    this.ws = new WebSocket('http://les9-8-back.onrender.com');
     this.usersList = document.querySelector('.users');
     this.messageControl = document.querySelector('.message_control');
     this.messageInput = document.querySelector('.message_input'); 
