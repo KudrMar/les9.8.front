@@ -1,0 +1,118 @@
+.registration {
+  height: 150px;
+  width: 300px;
+  border: 1px solid black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  justify-content: space-between;
+}
+
+.registration_input {
+  width: 90%;
+  height: 30px;
+}
+
+.registration_button {
+  width: 60%;
+  height: 30px;
+}
+
+.chat {
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.users {
+  margin-top: 20px;
+  width: 20%;
+  padding: 10px;
+  border-top-left-radius: 10px; 
+  border-bottom-left-radius: 10px; 
+  border: 1px solid black; 
+  border-right: 0;
+  padding: 0 20px 0 20px;
+  display: inline-block;
+}
+
+.user {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.flag {
+  width: 20px;
+  height: 20px;
+  border-radius: 11px; 
+  border: 1px solid rgb(0, 0, 0); 
+}
+
+.name {
+  padding: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.red {
+  color: red;
+}
+
+.chat_communication {
+  padding: 15px;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 15px;
+  flex-direction: column;
+  width: 80%;
+  justify-content: end;
+}
+
+.chat_messages {
+  display: flex;
+  flex-direction: column;
+}
+
+.message_header {
+  display: inline-block;
+  font-size: small;
+  margin: 0px;
+}
+
+.message_date {
+  display: inline-block;
+  padding-left: 5px;
+  margin: 0px;
+}
+
+.message_name {
+  display: inline-block;
+  margin: 0px;
+}
+
+.myMassege {
+  align-items: end;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: red;
+}
+
+.message_text {
+  margin: 0px 0px 10px 0px;
+  color: black;
+  font-size: large;
+}
+
+.message_button {
+  display: none;
+}
+
+.message_input {
+  width: 100%;
+}
